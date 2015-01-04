@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Dragos Oancea <oancea.dragosh@gmail.com> (http://dragosh.me)",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": "",
+  "dependencies": {
+    "bookshelf": "^0.7.9",
+    "express": "^4.10.6",
+    "knex": "^0.7.3",
+    "lodash": "~2.4.1",
+    "pm2": "^0.12.3",
+    "push-notify": "^1.1.1",
+    "socket.io": "^1.2.1"
+  },
+  "devDependencies": {},
+  "config": {},
+  "scripts": {
+    "start": "parallelshell 'gulp start' 'gulp test:watch'"
+  }
+}

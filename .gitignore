@@ -1,0 +1,6 @@
+node_modules/
+__tmp/
+*.log
+certs/*
+!**/.gitignore
+*.sublime-*
